@@ -64,21 +64,65 @@ header .headline{
   margin-top: 30px;
   color: #fff;
 }
-.main {
-  width: 840px; /* 横幅 */
+main {
+  width: 800px; /* 横幅 */
   /* 中央寄せ（余白がないとできない） */
   margin: 0 auto;
+  padding: 70px 0;
 }
 
 .blog {
-  width: 600px; /* 横幅 */
-  height: 1400px;/* 高さ1400px (多めに設定)*/
+  width: 540px; /* 横幅 */
   float: left;/* 要素を左揃えで並べる */
+  margin-right: 30px
+}
+
+.blog-headline {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.blog-box {
+  padding-top: 50px;
+}
+
+.blog-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.blog-image {
+  height: 180px;
+  float: left;
+}
+
+.blog-text {
+  float: left;
+  padding: 30px 0 0 25px;
+}
+
+.blog-text-headline {
+  padding-bottom: 15px;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
 }
 
 .sidebar {
-  width: 240px; /* 横幅 */
-  height: 1400px; /* 高さ1400px (多めに設定)*/
+  width: 230px; /* 横幅 */
   float: left;/* 要素を左揃えで並べる */
 }
 
