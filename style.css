@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;
 }
 
 /* clearfixを追加 */
@@ -12,40 +13,45 @@
   clear: both;
 }
 
-.header {
-  width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
-  background-color: red; /* 背景赤色 */
+a {
+  text-decoration:  none;
 }
 
-.header-top {
-  width: 100%; /* 横幅 */
-  height: 70px; /* 高さ */
-  background-color: hotpink; /* 背景色 */
+header {
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.header-bottom {
-  width: 100%; /* 横幅 */
-  height: 50px; /* 高さ */
-  background-color: pink; /* 背景色 */
+header .headline{
+  font-size: 32px;
 }
-/* 70px + 50px = 120px */
+
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
 
 .main-visual {
   width: 100%; /* 横幅 */
   height: 300px; /* 高さ */
-  background-color: orange; /* 背景色 */
 }
 
 .main-visual-content {
   width: 350px; /* 横幅 */
   height: 300px; /* 高さ */
-  background-color: gold; /* 背景色 */
 }
 
 .main {
   width: 840px; /* 横幅 */
-  background-color: green; /* 背景緑色 */
   /* 中央寄せ（余白がないとできない） */
   margin: 0 auto;
 }
@@ -53,19 +59,23 @@
 .blog {
   width: 600px; /* 横幅 */
   height: 1400px;/* 高さ1400px (多めに設定)*/
-  background-color: limegreen; /* 背景緑色 */
   float: left;/* 要素を左揃えで並べる */
 }
 
 .sidebar {
   width: 240px; /* 横幅 */
   height: 1400px; /* 高さ1400px (多めに設定)*/
-  background-color: palegreen; /* 背景緑色 */
   float: left;/* 要素を左揃えで並べる */
 }
 
-.footer {
-  width: 100%; /* 横幅 */
-  height: 120px; /* 高さ */
-  background-color: blue; /* 背景 */
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
 }
