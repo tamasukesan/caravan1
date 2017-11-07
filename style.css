@@ -225,3 +225,87 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 300px) {
+  header {
+  	width: 100%;
+  }
+  main {
+  	width: 95%;
+  }
+  .blog {
+  width: 100%; /* 横幅 */
+  float: none;
+  }
+  .social i, .category{
+    display: none;
+  }
+  .nav-list-item {
+  	display: block;
+  }
+  .main-visual {
+  width: 100%;
+  background-position: center;
+  }
+  .main-visual-content {
+  width: 100%; /* 横幅 */
+  text-align: center;
+  }
+  .blog-image {
+  	width: 135px;
+  	height: 135px;
+  }
+  .blog-text {
+  	float: none;
+  	padding: 10px 10px 10px 160px;
+    font-size: 10px;
+  }
+  .blog-item {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  #pagination p {
+    width: 20px;
+    height: 19px;
+    line-height: 20px;
+    font-size: small;
+  }
+  #pagination {
+    padding-top: 20px;
+  }
+  .sidebar {
+  width: 100%; /* 横幅 */
+  float: none;/* 要素を左揃えで並べる */
+  margin-top: 30px;
+  }
+  .sidebar-headline {
+  font-size: 20px
+  }
+  .popular-text {
+  	font-size: 12px;
+  }
+  .sidebar-contents {
+    padding: 30px 0;
+  }
+  .instagram-box:nth-child(odd) {
+    margin: 0px 11px 10px 10px;
+  }
+  .instagram-headline {
+  	font-size: 20px;
+  }
+  .instagram-box {
+    width: 126px;
+    padding-top: 126px;
+  }
+  .categories-headline {
+  	font-size: 20px;
+  }
+  .categories-text {
+  	font-size: 12px;
+  }
+  .footer-text {
+  	font-size: 12px;
+  }
+}
+
+
